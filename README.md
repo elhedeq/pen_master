@@ -20,8 +20,7 @@ Supports rich text editing with SunEditor.
 
 - PHP 7.4 or newer (PDO extension enabled)
 - MySQL/MariaDB
-- Apache/Nginx (recommended)
-- Composer (optional, for installing HTMLPurifier or other libraries)
+- Apache
 
 ---
 
@@ -61,11 +60,6 @@ Supports rich text editing with SunEditor.
     chmod 755 uploads
     ```
 
-5. **(Optional) Install HTMLPurifier for HTML sanitization:**
-    ```sh
-    composer require ezyang/htmlpurifier
-    ```
-
 ---
 
 ## Usage
@@ -88,7 +82,6 @@ Supports rich text editing with SunEditor.
 
 - All database queries use prepared statements (PDO) to prevent SQL injection.
 - User input is validated and escaped to prevent XSS.
-- Post content is rendered as HTML; **sanitize with HTMLPurifier** if you allow user HTML.
 - Uploaded avatars are restricted to JPEG files and safe filenames.
 
 ---
@@ -110,7 +103,6 @@ MIT License
 
 - [SunEditor](https://github.com/JiHong88/SunEditor)
 - [Bootstrap](https://getbootstrap.com/)
-- [HTMLPurifier](https://github.com/ezyang/htmlpurifier) (optional)
 
 ---
 
