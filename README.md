@@ -29,7 +29,7 @@ Supports rich text editing with SunEditor.
 
 1. **Clone or copy the repository:**
     ```sh
-    git clone https://github.com/yourusername/pen_master.git
+    git clone https://github.com/elhedeq/pen_master.git
     cd pen_master
     ```
 
